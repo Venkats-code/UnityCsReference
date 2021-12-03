@@ -14,7 +14,7 @@ namespace UnityEngine
     {
         static void FeatureRemoved() { throw new Exception("MovieTexture has been removed from Unity. Use VideoPlayer instead."); }
 
-        private MovieTexture() {}
+        private MovieTexture() {}njnnnnnnnnnn
 
         [Obsolete("MovieTexture is removed. Use VideoPlayer instead.", true)]
         public void Play() { FeatureRemoved(); }
